@@ -1,0 +1,42 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "React basics with Namaste",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoungruf/ReactPractice.git"
+  },
+  "author": "Shoungruf Raina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoungruf/ReactPractice/issues"
+  },
+  "homepage": "https://github.com/shoungruf/ReactPractice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@testing-library/react": "^14.0.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "jest": "^29.4.3",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
